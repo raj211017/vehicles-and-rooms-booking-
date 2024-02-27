@@ -1,0 +1,372 @@
+
+#middle{background-color:rgb(126, 6, 238);}
+
+#img1 img{
+  margin-top:10px;
+  margin-left:10px;
+  }
+  
+  #img1{
+  width:450px;
+  }
+
+#nav{ 
+  background-color:#6A04B8;
+height:100px;
+width:100%;
+color:white;
+box-shadow: 0px 8px 16px 1px rgb(53, 52, 52);
+}
+
+#catr{
+  color:white;
+float:right;
+font-size:20px;
+margin-top:40px;
+cursor: pointer;
+}
+
+#catr:hover{font-size:21px;}
+
+#navc{
+margin-top:-40px;
+word-spacing:15px; 
+width:300px;
+float: right;
+}
+
+#nav button{
+  background-color:green ;
+  border: none;
+  color: white;
+  padding: 7px 9px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  border-radius: 3px;
+  cursor: pointer;
+  box-shadow: 1px 1px 3px 1px rgb(52, 62, 54);
+  margin-top:-15px;
+}
+
+#nav button:hover{background-color:#228b22;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+margin-left:270px;
+border-radius: 0px 5px 5px 5px;
+}
+
+#myDropdown a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#myDropdown a:hover {background-color:#ddd;}
+
+.show {display: block;}
+
+.dropc {
+  display: none;
+  margin-top:10px;
+ margin-left:50%;
+  background-color: rgb(250, 249, 246);
+  width: 150px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropc a{
+  color: rgb(7, 7, 7);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropc a:hover{background-color: rgb(236, 164, 125);}
+
+.show {display: block;}
+
+.form-popup {
+  display: none;
+  position: fixed;
+  top: 60px;
+  right: 15px;
+  border: 2px solid lightblue;
+box-shadow: 1px 1px 15px grey;
+}
+
+.form-container {
+  width: 400px;
+  padding: 5px;
+  background-color: white;
+}
+
+.form-container input {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+#bodypart{
+  margin:auto;
+width:85%;
+border-radius:20px;
+box-shadow:1px 1px 5px 2px black;
+margin-top:70px;
+background-color:#95E974;
+}
+
+#bodypart h1{
+  text-align: center;
+  font-family: sans-serif;
+font-size: 40px;
+width:800px;
+margin-left:240px;
+}
+
+#location{
+  text-align: center;
+background-color:lightgreen;
+border-radius:10px;
+height:90px;
+font-size: 25px;
+box-shadow:1px 1px 5px 2px black;
+}
+
+#location input{
+width:200px;
+height:30px;
+border-radius:20px;
+font-size:20px;
+color:blue;
+border-style:none;
+text-align:center;
+}
+
+#location button{
+font-size: 20px;
+border-radius:5px;
+background-color:#E60303;
+color:white;
+padding:3px 9px;
+border-style:none
+}
+
+#location button:hover{
+background-color:green;
+}
+
+#body2{
+  width:70%;
+  margin:auto;
+  height:1700px;
+  padding:20px;
+  background-color: whitesmoke;
+  border-radius:10px;
+  }
+
+  #body2 table{
+  margin:auto;  
+  }
+
+  #body2 table td{
+  padding:5px;
+  height:300px;
+  width:900px;
+  }
+  
+  #body2 img{
+    width:100%;
+    height:100%;
+    border-radius:10px;
+  }
+
+  #body2 img:hover{
+    box-shadow: 1px 1px 1px 1px  grey;
+    }
+
+ #buttom1{
+  width:100%;
+margin:auto;}
+
+ #buttom1 img{width:100%;}
+
+.form-container .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer; 
+  width: 40%;
+  margin-bottom:10px;
+  margin-left:19px;
+  opacity: 0.8;
+}
+
+.form-container .cancel {
+  background-color: red;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+#loginbackground{
+  background-color:white;
+  width:450px;
+  height:500px;
+  margin-top:100px;
+    margin-left:38%;
+   border: 2px solid lightblue;
+  box-shadow: 1px 1px 3px 2px rgb(49, 48, 48);
+  }
+
+  .form-popup2 {
+    display: none;
+    position: fixed; 
+    z-index: 1;
+  left: 0;
+    top: 0; 
+  width:100%;
+  height:100%;
+    background-color: rgba(8, 8, 8, 0.4);
+   }
+
+ .loginform{
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+  }
+
+  @-webkit-keyframes animatezoom {
+   from {-webkit-transform: scale(0)} 
+   to {-webkit-transform: scale(1)}
+ }
+ @keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+ 
+.close {
+  position: absolute;
+  margin-left:420px;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+#myloginForm img{
+  height:150px;
+  width:150px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+  padding:5px;
+  }
+.lgcontainer{margin-left:15px;
+margin-right:5px;
+}
+
+.lgcontainer p{margin-left:25%;
+font-size:15px;}
+
+.lgcontainer .dinput{
+width:95%;
+height:33px;
+padding:5px;
+margin-top:5px;
+background-color:#ded9d9;
+border:none;
+
+}
+.lgcontainer .loginbtn{background-color:#04AA6D;
+width:98%;
+  padding: 10px 18px;
+margin-top:5px;
+border:none;
+  }
+.lgcontainer .cancelbtn { 
+  padding: 10px 18px;
+  background-color: red;
+width:95px;
+border:none;
+}
+button:hover {
+  opacity: 0.8;
+}
+.lgcontainer .psw{
+  text-align:right;
+margin-right:8px;
+margin-top:-15px;
+}
+
+
+#buttom{
+  background-color: #1c0120;
+  color:whitesmoke;
+  height:480px;
+  border-style: solid;
+  border-color: white;
+  }
+  
+  #table1 table,#table1 table th{
+    padding:10px;
+  }
+  #table1{padding:15px;}
+  
+  #table1 table a{color:white;}
+  #table1 table th{
+    color:rgb(248, 111, 7);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+  
+  }
+  
+  #table1 table td{
+  height:20px;
+  width:200px;
+  text-align:center;
+  font-size:14px;
+  }
+  
+  #actv{cursor: pointer;
+  text-decoration: underline;}
+  
+  
+  
+  #team{
+    margin-top:10px;
+    margin:auto;
+    width:750px;
+    height:200px;
+    display: grid;
+  grid-template-columns: auto auto auto auto;
+  column-gap: 15px;
+  }
+  
+  #team #teamimg{
+  text-align: center;
+  }
+  
+  #team img{border-radius: 50px;}
+  #btmlogo{
+    text-align: center;
+    margin:auto;
+    width:300px;
+  }
